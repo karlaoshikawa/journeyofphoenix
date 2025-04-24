@@ -33,11 +33,11 @@ const InformationBox: React.FC<InformationBoxProps> = ({
   return (
     <div className="fixed inset-0 flex items-center justify-center z-50">
       <div
-        className="bg-black/30 backdrop-blur-md rounded-lg shadow-lg p-8 max-w-md text-center relative 
+        className="bg-black/50 backdrop-blur-md rounded-lg shadow-lg p-8 max-w-md text-center relative 
                     shadow-[8px_8px_15px_rgba(0,0,0,0.2),-8px_-8px_15px_rgba(255,255,255,0.5)]"
       >
         {children}
-        <h2 className="text-xl font-bold mb-4">{title}</h2>
+
         <div>
           {image && (
             <div className="w-full h-auto mb-4 rounded-md overflow-hidden">
@@ -50,26 +50,26 @@ const InformationBox: React.FC<InformationBoxProps> = ({
               />
             </div>
           )}
-          {description && <p className="text-gray-700 mb-4">{description}</p>}
+          <h2 className="text-accent font-bold mb-4 text-2xl">{title}</h2>
+          {description && <p className="text-secondary mb-4">{description}</p>}
           {link && (
             <a
               href={link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 underline mb-4 block"
+              className="text-link underline mb-4 block hover:text-accent"
             >
-              Learn more
+              Veja mais
             </a>
           )}
           {descriptionModal && (
             <div className="mt-4">
-              <h3 className="text-lg font-semibold mb-2">More Information</h3>
-              <p className="text-gray-600">{descriptionModal}</p>
+              <p className="text-secondary">{descriptionModal}</p>
             </div>
           )}
           {imagesModal && imagesModal.length > 0 && (
             <div className="mt-4">
-              <h3 className="text-lg font-semibold mb-2">Gallery</h3>
+              <h3 className="text-primary font-semibold mb-2">Gallery</h3>
               <div className="grid grid-cols-2 gap-2">
                 {imagesModal.map((img, index) => (
                   <div
@@ -94,10 +94,10 @@ const InformationBox: React.FC<InformationBoxProps> = ({
 
       {/* Modal para exibir a imagem ampliada */}
       {selectedImage && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black/70 z-50">
+        <div className="fixed inset-0 flex items-center justify-center bg-black/70 z-50" onClick={handleCloseModal}>
           <div className="relative">
             <button
-              className="absolute top-1 right-2 text-lightgray"
+              className="absolute top-1 right-2 text-white"
               onClick={handleCloseModal}
             >
               ⓧ
