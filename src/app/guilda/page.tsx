@@ -9,15 +9,25 @@ export default function Home() {
         <div className="relative flex flex-col gap-4">
           <SideBox
             title={informations.guilda.title}
-            imageIcon={informations.guilda.imageIcon}
+            image={informations.guilda.image}
             description={informations.guilda.description}
+            link={informations.guilda.link}
+            descriptionModal={informations.guilda.descriptionModal}
+            imagesModal={informations.guilda.imagesModal}
           />
           <SideBox
             title={informations.guardianSpirit.title}
-            imageIcon={informations.guardianSpirit.image}
+            image={informations.guardianSpirit.image}
             description={informations.guardianSpirit.description}
+            descriptionModal={informations.guardianSpirit.descriptionModal}
           />
-          <SideBox title="teste" />
+          <SideBox
+            title={informations.members.title}
+            image={informations.members.image}
+            description={informations.members.description}
+            descriptionModal={informations.members.descriptionModal}
+            imagesModal={informations.members.imagesModal}
+          />
         </div>
         <div className="relative flex flex-col justify-between">
           {/* Ember= Brasa / Cindria= Cinzas ardentes */}
@@ -33,9 +43,21 @@ export default function Home() {
             title={informations.perfil.title}
             image={informations.perfil.image}
             description={informations.perfil.description}
+            descriptionModal={informations.perfil.descriptionModal}
           />
-          <SideBox title="teste" />
-          <SideBox title="teste" />
+          <SideBox
+            title={informations.skills.title}
+            image={informations.skills.image}
+            description={informations.skills.description}
+            descriptionModal={informations.skills.descriptionModal}
+          />
+          <SideBox
+            title={informations.lastbattles.title}
+            image={informations.lastbattles.image}
+            description={informations.lastbattles.description}
+            descriptionModal={informations.lastbattles.descriptionModal}
+            imagesModal={informations.lastbattles.imagesModal}
+          />
         </div>
       </div>
     </div>
