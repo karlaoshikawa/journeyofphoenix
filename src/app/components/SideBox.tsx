@@ -55,14 +55,7 @@ const SideBox: React.FC<SideBoxProps> = ({
         </div>
       </div>
       {isOpen && (
-        <div
-          className="fixed inset-0 flex items-center justify-center bg-black/70 z-50"
-          onClick={handleClose} // Fecha o modal ao clicar fora
-        >
-          <div
-            className="relative bg-white rounded-lg p-4"
-            onClick={(e) => e.stopPropagation()} // Impede que o clique dentro do modal feche-o
-          >
+      
             <InformationBox
               title={title}
               image={image}
@@ -73,16 +66,14 @@ const SideBox: React.FC<SideBoxProps> = ({
             >
               <button
                 className="absolute top-1 right-2 text-lightgray cursor-pointer"
-                onClick={(e) => {
-                  e.stopPropagation(); // Impede que o clique no botão "X" feche o modal via contêiner externo
-                  handleClose();
-                }}
+                onClick={
+                  handleClose
+                }
               >
                 ⓧ
               </button>
             </InformationBox>
-          </div>
-        </div>
+     
       )}
     </div>
   );

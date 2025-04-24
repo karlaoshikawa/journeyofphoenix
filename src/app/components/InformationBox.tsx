@@ -33,8 +33,8 @@ const InformationBox: React.FC<InformationBoxProps> = ({
   return (
     <div className="fixed inset-0 flex items-center justify-center z-50">
       <div
-        className="bg-black/50 backdrop-blur-md rounded-lg shadow-lg p-8 max-w-md text-center relative 
-                    shadow-[8px_8px_15px_rgba(0,0,0,0.2),-8px_-8px_15px_rgba(255,255,255,0.5)]"
+        className="bg-black/60 backdrop-blur-md rounded-lg p-8 max-w-md text-center relative 
+                    shadow-[4px_4px_8px_rgba(0,0,0,0.2),-4px_-4px_8px_rgba(255,255,255,0.1)]"
       >
         {children}
 
