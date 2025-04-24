@@ -2,7 +2,7 @@ import CenterBox from "../components/CenterBox";
 import SideBox from "../components/SideBox";
 import informations from "../utils/informations";
 
-export default function Home() {
+export default function Guilda() {
   return (
     <div className="h-screen w-screen flex items-center justify-center p-8 font-[family-name:var(--font-geist-sans)]">
       <div className="neomorphism h-full w-full max-w-[1980px] grid grid-cols-[20%_auto_20%] gap-4 p-5">
