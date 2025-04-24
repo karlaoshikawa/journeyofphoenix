@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #1c1c1c;
+  --foreground: #fafafa;
 }
 
 @theme inline {
@@ -10,17 +10,48 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-dark: #1c1c1c; /* Cor de fundo principal */
+  --color-lightGray: #fafafa; /* Cor de elementos elevados */
+  --color-accent: #ff0057; /* Cor de destaque (botões, ícones) */
+  --color-textGray: #a1a1a1; /* Cor do texto */
+  --color-shadowDark: #141414; /* Sombra escura */
+  --color-shadowLight: #202020; /* Sombra clara */
 }
 
 body {
-  background: var(--background);
+  background: var(--color-shadowDark);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .neomorphism {
+    background-color: var(--color-dark);
+    box-shadow: 4px 4px 8px var(--color-shadowDark),
+      -4px -4px 8px var(--color-shadowLight);
+    border-radius: 12px;
+  }
+}
+
+/* Adicione a animação personalizada */
+@keyframes grow {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-grow {
+  animation: grow 1s ease-out forwards;
+}
+
+.animate-grow-delay {
+  animation: grow 1s ease-out forwards;
+  animation-delay: 0.5s; /* Atraso de 0.5 segundos */
+  opacity: 0; /* Inicialmente invisível */
 }
