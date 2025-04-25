@@ -4,6 +4,8 @@
 
 Este é um projeto desenvolvido com [Next.js](https://nextjs.org), que utiliza conceitos modernos de desenvolvimento web, como **glassmorphism**, **neomorphism** e animações interativas. O objetivo do projeto é criar uma interface visual rica para explorar informações sobre a **Guilda das Guerreiras de Fogo**.
 
+Veja o projeto em: https://journeyofphoenix-git-main-karlaoshikawas-projects.vercel.app/
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **Next.js**: Framework React para renderização no lado do servidor e geração de sites estáticos.
