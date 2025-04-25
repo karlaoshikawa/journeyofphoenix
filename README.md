@@ -1,8 +1,10 @@
+![Guilda das Guerreiras de Fogo](/deploy.png "Guilda das Guerreiras de Fogo")
+
 # Game Chart
 
 Este é um projeto desenvolvido com [Next.js](https://nextjs.org), que utiliza conceitos modernos de desenvolvimento web, como **glassmorphism**, **neomorphism** e animações interativas. O objetivo do projeto é criar uma interface visual rica para explorar informações sobre a **Guilda das Guerreiras de Fogo**.
 
-## Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 - **Next.js**: Framework React para renderização no lado do servidor e geração de sites estáticos.
 - **Tailwind CSS**: Framework CSS utilitário para estilização rápida e responsiva.
@@ -10,7 +12,16 @@ Este é um projeto desenvolvido com [Next.js](https://nextjs.org), que utiliza c
 - **React**: Biblioteca para construção de interfaces de usuário.
 - **Next/Image**: Otimização de imagens integrada ao Next.js.
 
-## Funcionalidades
+## Extenções do vsCode
+Para vizualizar as classes do tailwind **Tailwind CSS IntelliSense**
+
+## 🤖 IA
+
+- **Imagens**: [Leonardo AI](https://app.leonardo.ai/).
+- **Textos**: [DeepSeek](https://www.deepseek.com/).
+- **Código**: [GitHub Copilot](https://github.com/features/copilot).
+
+## ✨ Funcionalidades
 
 - **Guilda das Guerreiras de Fogo**:
   - Exibição de informações detalhadas sobre a guilda, seus membros e habilidades.
@@ -24,13 +35,13 @@ Este é um projeto desenvolvido com [Next.js](https://nextjs.org), que utiliza c
   - Transições suaves ao carregar elementos.
   - Interatividade ao clicar em imagens e botões.
 
-## Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
 - **`app/components`**: Contém os componentes reutilizáveis, como `SideBox` e `InformationBox`.
 - **`app/utils`**: Contém dados estáticos, como informações sobre a guilda e habilidades.
 - **`app/page.tsx`**: Página principal do projeto.
 
-## Como Executar o Projeto
+## 🚀 Como Executar o Projeto
 
 ### Pré-requisitos
 
@@ -40,8 +51,8 @@ Certifique-se de ter o **Node.js** instalado em sua máquina.
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/game-chart.git
-   cd game-chart
+   git clone https://github.com/karlaoshikawa/journeyofphoenix.git
+   cd journeyofphoenix
    ```
 
 2. Instale as dependências:
@@ -59,7 +70,7 @@ Certifique-se de ter o **Node.js** instalado em sua máquina.
    http://localhost:3000
    ```
 
-## Estrutura de Dados
+## 🗂️ Estrutura de Dados
 
 Os dados do projeto estão localizados no arquivo `app/utils/informations.tsx`. Aqui estão alguns exemplos:
 
@@ -83,7 +94,7 @@ Os dados do projeto estão localizados no arquivo `app/utils/informations.tsx`. 
   }
   ```
 
-## Deploy
+## 🌐 Deploy
 
 Este projeto pode ser facilmente implantado na [Vercel](https://vercel.com/), a plataforma oficial para Next.js.
 
@@ -92,10 +103,14 @@ Este projeto pode ser facilmente implantado na [Vercel](https://vercel.com/), a 
 3. Configure as variáveis de ambiente, se necessário.
 4. Clique em **Deploy**.
 
-## Contribuições
+## 🤝 Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
-## Licença
+## 👩‍💻 Autora
 
-Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
+Karla Oshikawa
+
+[Linkedin](https://www.linkedin.com/in/karlaoshikawa/)  
+[Instagram](https://www.linkedin.com/in/karlaoshikawa/)
+
