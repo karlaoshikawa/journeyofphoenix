@@ -1,6 +1,6 @@
-![Guilda das Guerreiras de Fogo](/deploy.png "Guilda das Guerreiras de Fogo")
+![Guilda das Guerreiras de Fogo](https://raw.githubusercontent.com/karlaoshikawa/journeyofphoenix/refs/heads/main/public/deploy.png "Guilda das Guerreiras de Fogo")
 
-# Game Chart
+# Journey of Fenix
 
 Este é um projeto desenvolvido com [Next.js](https://nextjs.org), que utiliza conceitos modernos de desenvolvimento web, como **glassmorphism**, **neomorphism** e animações interativas. O objetivo do projeto é criar uma interface visual rica para explorar informações sobre a **Guilda das Guerreiras de Fogo**.
 
